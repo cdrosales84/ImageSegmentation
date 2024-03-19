@@ -10,5 +10,7 @@ $RECYCLE.BIN/
 
 # Windows shortcuts
 *.lnk
-training/images/*.*
-training/mask/*.*
+OCT/images/*.*
+OCT/mask/*.*
+training/
+test/
