@@ -15,4 +15,11 @@ OCT/mask/*.*
 training/
 test/
 
+__pycache__/
+
 .git/
+
+logs/
+
+# Carpeta del data augmentation
+new_data/

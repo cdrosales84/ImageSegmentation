@@ -114,7 +114,8 @@ if __name__ == "__main__":
         TensorBoard(),
         EarlyStopping(monitor="val_loss", patience=10, restore_best_weights=False)
     ]
-    print(valid_steps)
+    #model.fit(train_dataset, epochs=num_epochs, validation_data=valid_dataset)
+    """"
     model.fit(
         train_dataset,
         epochs=num_epochs,
@@ -122,4 +123,4 @@ if __name__ == "__main__":
         steps_per_epoch=train_steps,
         validation_steps=valid_steps,
         callbacks=callbacks
-    )
+    ) """
