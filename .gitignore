@@ -16,6 +16,7 @@ training/
 test/
 
 __pycache__/
+__pycache__/*.*
 
 .git/
 
@@ -23,3 +24,5 @@ logs/
 
 # Carpeta del data augmentation
 new_data/
+new_data/test
+new_data/train/
